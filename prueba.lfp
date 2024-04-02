@@ -1,18 +1,17 @@
     Inicio:{
-        Encabezado:{
-            TituloPagina:"Ejemplo titulo";
-        },
+        Encabezado:{ 
+            TituloPagina:"Ejemplo titulo"; 
+        }, 
         Cuerpo:[
-            Titulo:{
-                texto:"Este es un titulo";
-                posicion:"izquierda";
-                tamano:"t1";
+            Titulo:{ 
+                texto:"Este es un titulo"; 
+                posicion:"izquierda"; 
+                tamaño:"t1"; 
                 color:"rojo";
-                color:"azul";
-            },
-            Fondo:{
-                color:"cyan";
-            },
+                },
+            Fondo:{ 
+                color:"#FF0099"; 
+            }
             Parrafo:{
                 texto:"Este es un parrafo de ejemplo.";
                 posicion:"izquierda";
@@ -41,5 +40,12 @@
             Salto:{
                 cantidad:"5";
             },
+            Tabla:{ 
+            filas:"4"; 
+            columnas:"3"; 
+            elemento:{"fila":"1","columna":"1","Texto mostrado en fila 1 columna 1"}; 
+            elemento:{"fila":"1","columna":"2","Texto mostrado en fila 1 columna 2"}; 
+            elemento:{"fila":"1","columna":"3","Texto mostrado en fila 1 columna 3"}; 
+            }
         ]
-    }$$$*
+    }
